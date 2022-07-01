@@ -58,9 +58,11 @@ def easy():
     
     if guess == easy_game_number:
         print("Congratulations you beat the game")
+        welcome()
     else:
         print("Sorry, you've run out of guesses")
         print(f"Also the right answer was {easy_game_number}")
+        welcome()
 
 def Intermediate():
     attempt = 5
@@ -90,9 +92,11 @@ def Intermediate():
             print("Sorry, this game accepts integers only")
     if guess == intermediate_game_number:
         print("Congratulations you beat the game")
+        welcome()
     else:
         print("Sorry, you've run out of guesses")
         print(f"Also the right answer was {intermediate_game_number}")
+        welcome()
 
 def Hard():
     attempt = 10
@@ -123,9 +127,11 @@ def Hard():
     
     if guess == hard_game_number:
         print("Congratulations you beat the game")
+        welcome()
     else:
         print("Sorry, you've run out of guesses")
         print(f"Also the right answer was {hard_game_number}")
+        welcome()
 
 def main():
     welcome()
