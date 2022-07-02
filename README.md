@@ -12,3 +12,7 @@ Below is a list of all the projects in this repo.
             print(f"Also the right answer was{easy_game_number}")<br>
     }<br>
     Depending on wether the user gets the guess right or runs out of attempts, the game comes to an end and the right answer is displayed.
+
+2. Rolling Dice Simulator
+    # Instructions
+    Yet another simple game but takes than an hour to complete. In this game a user just enters yes or no to roll the die or quit the game respectively. If the user enters yes, randint is used to print a random integer from 1 to 6. The game has two levels; one for a single die roll and another for a dice roll which returns a sum of the dice.
