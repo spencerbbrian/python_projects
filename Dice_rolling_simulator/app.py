@@ -36,11 +36,12 @@ def welcome():
 def two_dice_game():
     die1 = randint(1,6)
     die2 = randint(1,6)
+    total_dice = str(die1 + die2)
+    output = f"The total dice is {total_dice}"
+    def inner():
+        print(output)
+    return inner()
 
-    total_dice = die1 + die2
-    print(f"The dice came up as {total_dice}")
-
-        
 def quit_game():
     print("Sad to see you go!")
 
