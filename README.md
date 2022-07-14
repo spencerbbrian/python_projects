@@ -11,11 +11,11 @@ Yet another simple game but takes than an hour to complete. In this game a user 
 After eight rounds of coffee and a lot of copy and pasting and some modification of course. I finished the hangman game. Trust, I thought I would bail on this. Anyway, it's your regular hangman game with some words which are just two in this case apple and orange. The basic functionality of the game being able to detect a letter and pass it as a guess and crosscheck with the random word selected is working fine. Also being able to replace the letter that still needs guessing is an added functionality.
 
 ## SIMPLE CALCULATOR
-![Simple Calculator Screenshot](Simple_calculator/calculator_screenshot.png)
+![Simple Calculator Screenshot](Simple_calculator/calculator_screenshot.png)<br>
 I needed to work on a project that has some form of graphical interface and then I found Tkinter. Trust, it is boring to look at but the basic functionalities are a stepping stone. This project is a simple calculator with just multiplication(*), subtraction(-), addition(+) & division(/) functions. Using Tkinter, I was able to make this look like an actual pocket calculator. In the future, I hope to remove the equal(=) bug that keeps executing the last task with the first number passed. Clearing after every calculation is a way around this for now.<br>
-<strong>Ref:[Link to Codemy](https://codemy.com/)</strong>    
+<strong>Ref:[Codemy](https://codemy.com/)</strong>    
 
 ## IMAGE VIEWER
-![Image Viewer Screenshot](Image_viewer/image_viewer_screenshot.png)
-This is a school image viewer app just to enhance my skills with Tkinter. It displays images and has a next and back button to cycle through the images. This isn't so much of a project but trust, I had to watch a Codemy video the entire time.(:dissapointed:)<br>
-<strong>Ref:[Link to Codemy](https://codemy.com/)</strong>    
+![Image Viewer Screenshot](Image_viewer/image_viewer_screenshot.png)<br>
+This is a school image viewer app just to enhance my skills with Tkinter. It displays images and has a next and back button to cycle through the images. This isn't so much of a project but trust, I had to watch a Codemy video the entire time.<br>
+<strong>Ref:[Codemy](https://codemy.com/)</strong>    
