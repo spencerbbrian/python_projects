@@ -7,7 +7,7 @@ from numpy import save
 
 root = Tk()
 root.title("Address Book With SQLITE")
-root.iconbitmap(r'C:\Users\brian\Desktop\CCR\FULLSTACK DEVELOPMENT\FRONTEND\FAVICONS\address_64.ico')
+root.iconbitmap(r'C:\Users\brian\Desktop\CCR\FULLSTACK_DEVELOPMENT\BACKEND\PYTHON\Projects\Address_book\assets\address_64.ico')
 root.geometry("500x500")
 
 #Databases
