@@ -21,4 +21,8 @@ This is a school image viewer app just to enhance my skills with Tkinter. It dis
 <strong>Ref:[Codemy](https://codemy.com/)</strong>    
 
 ## ADDRESS_BOOK
+![Address Book Screenshot](Address_book/assets/Address_book_screenshot.png)<br>
+This is a <strong>sqlite3+tkinter</strong> project. This address book allows the user to enter their credentials and is saved in a database which can be accessed, updated and deleted with a specific ID. This is just the first version, I'm planning on adding a hashed password to let users verify it's their account before they can use it. I'm also thinking of allowing users to allow other users to change their credentials but baby steps here.
 
+## EMAIL SLICER
+A four line project. I know! I needed my commit of the day! In later version I wish to include the option to send mail to the host.
