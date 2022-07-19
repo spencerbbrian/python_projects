@@ -1,37 +1,21 @@
-def welcome():
-    global array,entre
-    array = []
-    x = -1
-    while x < 99:
-        x += 2
-        array.append(x)
-        continue
+def binary_search(sequence, item):
+    begin_index = 0
+    end_index = len(sequence) - 1
 
-    # print(right, left, mid)
-    entre = str(input("Please enter a value\n"))
-    binary_search()
+    while begin_index <= end_index:
+        midpoint = begin_index + (end_index - begin_index) // 2
+        midpoint_value = sequence[midpoint]
 
+        if midpoint_value == item:
+            return midpoint
+        elif item < midpoint_value:
+            end_index = midpoint - 1
+        elif item > midpoint_value:
+            begin_index = midpoint + 1
 
-def binary_search():
-    left = 0
-    right = len(array) - 1
-    while left <= right:
-        mid = str(((left + right) / 2))
-        if array[mid] == entre:
-            return mid
-            break
-        elif entre < array[mid]:
-            right = mid - 1
-            continue
-        elif entre > array[mid]:
-            left = mid + 1
-            continue
-        else:
-            print("The number is not in this")
-            break
+    return None
 
-def main():
-    welcome()
+sequence_a = [2,4,5,6,7,8,9,10,11,12]
+item_a = 12
 
-if __name__ == '__main__':
-    main()
+print(binary_search(sequence_a,item_a))
