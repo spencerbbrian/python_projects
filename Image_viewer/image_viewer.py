@@ -1,6 +1,5 @@
 from tkinter import *
 from PIL import ImageTk, Image
-from numpy import imag
 
 root = Tk()
 root.title('SCHOOL IMAGES VIEWER')

@@ -1,9 +1,6 @@
 from tkinter import *
-from turtle import update
-from PIL import ImageTk, Image
 import sqlite3
 
-from numpy import save
 
 root = Tk()
 root.title("Address Book With SQLITE")
